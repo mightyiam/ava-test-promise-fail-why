@@ -1,0 +1,15 @@
+{
+  "name": "ava-test-promise-fail-why",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "author": "Shahar Or <mightyiampresence@gmail.com> (mightyiam)",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "standard": "^8.6.0"
+  }
+}
