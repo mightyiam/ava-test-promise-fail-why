@@ -12,13 +12,13 @@ test.afterEach(() => {
   subject.n = 0
 })
 
-test(async t => {
-  console.log('first')
+test('first test', async t => {
+  console.log('first test')
   await subject.fn('first')
 })
 
-test(async t => {
-  console.log('second')
+test('second test', async t => {
+  console.log('second test')
   await subject.fn('second')
   console.log('assert')
   t.is(subject.n, 1)
